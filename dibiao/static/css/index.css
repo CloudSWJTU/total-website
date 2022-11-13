@@ -1,0 +1,356 @@
+.title {
+    height: 100px;
+    background-color: #1071a8;
+}
+.black_overlay {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 1100px;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.6;
+    opacity: .60;
+    filter: alpha(opacity=60);
+}
+
+.main {
+    margin-top: 20px;
+}
+/* 导航栏部分 */
+.nav {
+    position: relative;
+    height: 800px;
+    padding-right: 10px !important;
+    padding-left: 5px;
+    
+}
+.nav1 {
+    position: relative;
+    border: 2px,solid,#1071a8;
+}
+.shangla {
+    height: 15px;
+    margin-left: 40px;
+}
+.shangla:hover {
+    background-color: #1071a8;
+}
+
+.shangla a{
+    position: absolute;
+    left: 55%;
+}
+.xiala {
+    height: 15px;
+    margin-left: 40px;
+}
+.xiala:hover {
+    background-color: #1071a8;
+}
+
+.xiala a{
+    margin: 0 auto;
+    transform: translateX(770%);
+}
+.nav ul {
+    margin-bottom: 0;
+}
+.list1 {
+    height: 620px;
+    overflow: hidden;
+
+}
+.no1_1{
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1071a8;
+    font-size: 20px;
+    line-height: 120px;
+    height: 120px;
+    margin-bottom: 5px;
+    cursor:pointer;
+    transition: transform, 1s;
+}
+.no1_1:hover {
+    transform: translateX(-15px);
+}
+.no1_2{
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1071a8;
+    font-size: 20px;
+    line-height: 120px;
+    height: 120px;
+    margin-bottom: 5px;
+    cursor:pointer;
+    transition: transform, 1s;
+}
+.no1_2:hover {
+    transform: translateX(-15px);
+}
+.no1_3{
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1071a8;
+    font-size: 20px;
+    line-height: 120px;
+    height: 120px;
+    margin-bottom: 5px;
+    cursor:pointer;
+    transition: transform, 1s;
+}
+.no1_3:hover {
+    transform: translateX(-15px);
+}
+.no1_4{
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1071a8;
+    font-size: 20px;
+    line-height: 120px;
+    margin-bottom: 5px;
+    height: 120px;
+    cursor:pointer;
+    transition: transform, 1s;
+}
+.no1_4:hover {
+    transform: translateX(-15px);
+}
+.no1_5{
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1071a8;
+    font-size: 20px;
+    line-height: 120px;
+    height: 120px;
+    margin-bottom: 5px;
+    cursor:pointer;
+    transition: transform, 1s;
+}
+.no1_5:hover {
+    transform: translateX(-15px);
+}
+img[class^=xtp] {
+    width: 50%;
+    height: 100%;
+    transition: width .5s;
+}
+img[class^=xtp]:hover {
+    width: 100%;
+}
+
+/* 导航栏部分结束 */
+.tupian {
+    position: relative;
+    height: 638px;
+}
+.tupian .ditu {
+    width: 100%;
+    height: 100%;
+}
+/* 导航标模块start */
+span[class^=db] {
+    display:block;
+    width: 14px;
+    height: 17px;
+}
+.tupian .db1:hover {
+    transform: translateY(-30%);
+}
+.tupian .db2:hover {
+    transform: translateY(-30%);
+}
+.tupian .db3:hover {
+    transform: translateY(-30%);
+}
+.tupian .db4:hover {
+    transform: translateY(-30%);
+}
+.tupian .db5:hover {
+    transform: translateY(-30%);
+}
+.tupian .db6:hover {
+    transform: translateY(-30%);
+}
+.tupian .db7:hover {
+    transform: translateY(-30%);
+}
+.tupian .db8:hover {
+    transform: translateY(-30%);
+}
+.tupian .db9:hover {
+    transform: translateY(-30%);
+}
+.tupian .db10:hover {
+    transform: translateY(-30%);
+}
+.tupian .db11:hover {
+    transform: translateY(-30%);
+}
+.tupian .db12:hover {
+    transform: translateY(-30%);
+}
+.tupian .db13:hover {
+    transform: translateY(-30%);
+}
+.tupian .db14:hover {
+    transform: translateY(-30%);
+}
+.tupian .db15:hover {
+    transform: translateY(-30%);
+}
+.tupian .db16:hover {
+    transform: translateY(-30%);
+}
+.tupian .db17:hover {
+    transform: translateY(-30%);
+}
+.tupian .db18:hover {
+    transform: translateY(-30%);
+}
+/* .tupian span[class^=db]:hover {
+    transform: translateY(-15%) !important;
+}  */
+
+.tupian span:nth-of-type(1) {
+    position:absolute;
+    top: 63%;
+    left: 11.5%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(2) {
+    position:absolute;
+    top: 59.5%;
+    left: 18.3%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(3) {
+    position:absolute;
+    top: 46%;
+    left: 26%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(4) {
+    position:absolute;
+    top: 59.5%;
+    left: 26%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(5) {
+    position:absolute;
+    top: 59%;
+    left: 35%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(6) {
+    position:absolute;
+    top: 44.3%;
+    left: 35%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(7) {
+    position:absolute;
+    top: 38%;
+    left: 83%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(8) {
+    position:absolute;
+    top: 44%;
+    left: 45%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(9) {
+    position:absolute;
+    top: 59%;
+    left: 44%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(10) {
+    position:absolute;
+    top: 54%;
+    left: 63.5%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(11) {
+    position:absolute;
+    top: 41%;
+    left: 57%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(12) {
+    position:absolute;
+    top: 79.5%;
+    left: 52%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(13) {
+    position:absolute;
+    top: 76%;
+    left: 57%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(14) {
+    position:absolute;
+    top: 39.5%;
+    left: 72.5%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(15) {
+    position:absolute;
+    top: 14.5%;
+    left: 63%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(16) {
+    position:absolute;
+    top: 22.7%;
+    left: 56.3%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(17) {
+    position:absolute;
+    top: 35%;
+    left: 31%;
+    cursor:pointer;
+}
+.tupian span:nth-of-type(18) {
+    position:absolute;
+    top: 58.5%;
+    left: 3.5%;
+    cursor:pointer;
+}
+/* 导航标模块end */
+/* 弹出图 */
+/* 弹出图类名统一为db00... */
+div[class^=db00] {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height:50%;
+    width: 50%;
+    padding: 0;
+    display: none;
+    z-index: 1002;
+    transform: translate(-50%,-50%);
+}
+div[class^=db00] img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* 弹出图end */
+/* 弹出图的按钮 */
+div[class^=containerbtn] {
+    float: right;
+    transform:translateX(100%);
+}
+/* 弹出图按钮end */
+

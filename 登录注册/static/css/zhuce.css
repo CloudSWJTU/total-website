@@ -1,0 +1,76 @@
+
+
+
+.biaodan {
+
+    background-color: rgba(83, 219, 240, 0.2);
+    text-align : center;
+    font-family :"微软雅黑";
+    font-size: 20px;
+    box-shadow: 0px 0px 50px rgb(241, 233, 202) inset ;
+ }
+
+
+.totaltitle{
+    color:rgb(38, 140, 236);
+    font-family :"Cursive";
+    /* 这里到时候下载一个新字体 */
+    text-align : center;
+    line-height : 10px;
+    text-shadow: 2px 2px 5px rgb(160, 208, 236);
+}
+.sexname{
+   line-height : 5px;
+}
+body {
+width: 100%;
+height: 50%;
+background-image: url(../img/注册首页图.jpg) ;
+
+opacity:1.0;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.selfintro {
+width:450px;
+height: 60px;
+font-family :"微软雅黑";
+font-size: 15px;
+}
+
+.lei1{
+width:450px;
+height: 35px;
+text-align : center;
+font-size: 15px;
+}
+
+.lei2{
+width:450px;
+height: 20px;
+text-align : center;
+font-size: 15px;
+}
+
+.lei3{
+width:200px;
+height: 20px;
+text-align : center;
+font-size: 15px;
+}
+.lei4{
+font-size: 20px;
+}
+
+.submitbottom{
+padding: 10px 15px;
+text-align: center;
+font-size: 20px;
+cursor: pointer;
+background-color: rgba(38, 140, 236,0.4);
+border-radius: 8px;
+font-family :"隶书";
+}
+

@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#indexcontent{
+    overflow: visible;
+}
+
+.carouselinnerspace{
+    overflow: hidden;
+}
+.gridbox{
+    display: grid;
+}
+.flexbox{
+    display:flex;
+}
+.contenttraninner{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 5rem;
+}
+.contenttran{
+    width: 100%;
+    position: absolute;
+    transform: translateY(-4rem);
+    background-color: #2196F3;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    overflow: visible;
+}
+.contenttran div:nth-child(1)
+{
+    color: gold;
+    font-size: 3rem;
+}
+.contenttran div:nth-child(2)
+{
+    color:black;
+    font-size: 30px;
+
+}
+.contenttran a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(47, 173, 227);
+    background-image: url(../img/南门_br_zsy.jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+.contenttran a:hover {
+     transition: 0.2s;
+      opacity: 0.9;
+     box-shadow: 3px 3px 3px black;
+     color: rgb(0, 0, 0);
+     letter-spacing: 3px;
+    
+}
+hr{
+    position: relative;
+    width: 200%;
+}
+/* 基本模块 */
+.contentpart{
+    overflow: visible;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    justify-content: space-between;
+    
+}
+/* 内容区框架 */
+/* 过渡 */
+.transpan{
+    background-color:#2196F3;
+    width:100%;
+    height: 30px;
+    border-radius: 25px;
+}
+/* 介绍 */
+.aboutus{
+    overflow: hidden;
+    width:80%;
+    margin-left: 10%;
+    height:600px;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 3fr 1fr;
+    background-image: url(../img/liujiaopaizi.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-color: #2196F3;
+   gap: 20px;
+}
+.intro{
+    margin: 20px;
+}
+.intro p{
+   font-size:x-large;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px  1px black;
+}
+.intro .introtitle{
+    color: rgb(0, 0, 0);
+    text-shadow:black;
+    text-align: center;
+    font-size: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(181, 217, 248, 0.616);
+}
+.diary{
+    overflow: scroll;
+    background-color: rgb(255, 255, 255);
+    height: 90%;
+    padding: 0%;
+}
+.diary::-webkit-scrollbar {display:none
+}
+.diary h1{
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(176, 211, 211);
+}
+.diary p{
+    font-size:x-large;
+}
+.time{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+
+/* 历史 */
+.history{
+    width:80%;
+    margin-left: 10%;
+    height:800px;
+    background-color: rgb(217, 31, 31);
+    box-shadow: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: 70% 30%;
+    grid-template-areas:
+            "inb1"
+            "inb2";
+}
+.historyinb1{
+    grid-area: inb1;
+    background-color: beige;
+    gap:20px;
+    grid-template-rows:auto;
+    grid-template-columns:repeat(4,25%);
+    grid-template-areas: 
+          ". b . d "
+          "a .  c. "
+          "a .  c. ";
+}
+.historyinb1 div:nth-child(even){
+    transform:translateY(40px);
+    background-color: #2196F3;
+}
+.historyinb1 div:nth-child(odd){
+    background-color: rgb(142, 136, 136);
+    transform:translateX(-50px);
+}
+.item-a {
+    grid-area: a;
+  }
+  .item-b {
+    grid-area: b;
+  }
+  .item-c {
+    grid-area: c;
+  }
+  .item-d {
+    grid-area: d;
+  }
+  .histroyinb2{
+    overflow: hidden;
+    grid-area: inb2;
+    background-color: rgb(0, 215, 208);
+    gap: 10px;
+    grid-template-rows:repeat(2,50%);
+    grid-template-columns: 100%;
+}
+/* 地图部分 */
+.map{
+    margin-left: 5%;
+    overflow: visible;
+    width: 100%;
+    height:400px;
+    background-color: rgb(163, 172, 36);
+    box-shadow: 10px;
+    grid-template-rows: 100%;
+}
+.mapinb1{
+    position: absolute;
+    height: 400px;
+    border-color: black;
+    border: 10px;
+    background-color: rgba(0,0,0, 0.7);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.mapinb1 ul{
+    text-align: start;
+    letter-spacing:1px;
+    list-style: none;
+
+}
+.mapinb1 ul li{
+    font-size: 2rem;
+}
+.mapinb1 ul li a{
+    border-style: outset;
+    border: 3px;
+    border-color: aliceblue;
+    color:white ;
+    text-shadow: 1px 1px 1px black;
+}
+.mapinb2{
+    overflow: visible;
+    background-image:url(../img/map_3d.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 5px;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(5,20%);
+    grid-template-areas: 
+    '. . . . .'
+    '. mapb . . .'
+    '. . mapc . .'
+    '. . mapc . .'
+    '. . . . mapa';
+    
+}
+.mapinb2 div{
+    border-radius: 25px;
+}
+.mapinb2 div:nth-child(1)
+{
+
+    grid-area: mapa;
+    background-color: #2196F3;
+}
+.mapinb2 div:nth-child(2)
+{
+    grid-area: mapb;
+    background-color: black;
+}
+.mapinb2 div:nth-child(3)
+{
+
+    grid-area: mapc;
+    background-color: blueviolet;
+}
+/* 社团 */
+.association{
+    width:100%;
+    min-width: 800px;
+    margin-right: 10%;
+    position: relative;
+    transform: translateX(20%);
+    height: 500px;
+    background-color: rgb(99, 99, 99);
+    align-items: center;
+}   
+.association .innerass{
+    overflow: visible;
+    width: 110%;
+    height: 400px;
+
+    column-gap: 20px;
+    background-color: #2196F3;
+    grid-template-columns: 20% 20% 20% 15% 15%;
+    grid-template-rows: repeat(5,20%);
+    grid-template-areas: 
+    '. . . assd asse'
+    ' assa assb assc assd asse'
+    ' assa assb assc assd asse'
+    ' assa assb assc assd asse'
+    '. . . assd asse';
+    text-align: center;
+}
+
+.association .innerass div:nth-child(1)
+{
+    overflow: hidden;
+    grid-area: assa;
+    border-radius: 25px;
+    background-color: #eaeaea;
+}
+.association .innerass div:nth-child(1) .descrption{
+    display: block;
+    background-color: rgb(46, 216, 216);
+    position: relative;
+    top: 200px;
+    transition: all 1s;
+}
+.association .innerass div:nth-child(1):hover
+{
+    transition: all .5s;
+    overflow: visible;
+    transform: scale(1.1);
+}
+.association .innerass div:nth-child(1):hover .descrption
+{
+    transform: translate(0px,-100px);
+}
+.association .innerass div:nth-child(2)
+{
+    grid-area: assb;
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+.association .innerass div:nth-child(3)
+{
+    grid-area: assc;
+    border-radius: 25px;
+    background-color: blueviolet;
+}
+.association .innerass div:nth-child(4)
+{
+    grid-area: assd;
+    border-radius: 25px;
+}
+.association .innerass div:nth-child(5)
+{
+    grid-area: asse;
+    border-radius: 25px;
+    background-color: brown;
+}
+/* 页脚 */
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.footer li{
+    padding-top: 20px;
+    list-style: none;
+    display:block;
+    margin: 0 30px;
+    font-size: 30px;
+    border: 1px black;
+    text-align: center
+}
+.footer li a{
+    transition: all .3s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.fengong{
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.minipart{
+    overflow: visible;
+    border-radius: 25px;
+    padding-top: 30px;
+    background-color: #2196F3;
+    height: 10%;
+    width: 300px;
+    position: relative;
+    right: 20%;
+    top: 30px;
+}
+
+.innerminipart_return{
+    position: relative;
+    overflow: visible;
+    background-color: aliceblue;
+    height:50px;
+    width: 90%;
+    right: 60px;
+    box-shadow: 5px 5px 5px rgb(105, 212, 231);
+}
+.innerminipart_return a{
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    color: black;
+}
+.innerminipart_tran{
+    vertical-align: top;
+    font-size: 30px;
+    text-align: center;
+    color:lightyellow
+}

@@ -1,0 +1,54 @@
+.container{
+    width: 100px;
+    align-self: center;
+    height: 100px;
+}
+.q1{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    overflow: hidden;
+    transition: all 2s;
+}
+
+.hovershow{
+    background-color: antiquewhite;
+    position: relative;
+    top: 100px;
+    height: 50px;
+    width: 50px;
+    transition:  1s;
+}
+.q1:hover{
+    overflow: visible;
+    transform: rotate(2);
+}
+.q1:hover .hovershow{
+    display: block;
+    background-color: black;
+    transform: translate(0px,-100px);
+}
+.girdtest{
+    display: grid;
+    background-color:rgb(41, 243, 239);
+    width: 800px;
+    height: 500px;
+}
+.girdtest div:nth-child(1)
+{
+    grid-area: a;
+        background-color: aliceblue;
+}
+.girdtest div:nth-child(2)
+{
+    grid-area: ;
+           background-color: brown;
+}
+.girdtest div:nth-child(3)
+{
+            background-color: bisque;
+}
+.girdtest div:nth-child(4)
+{
+            background-color: rgb(119, 242, 146);
+}

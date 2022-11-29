@@ -1,0 +1,22 @@
+.titlebk{
+    background-image: url("../img/竢实扬华.jpg");
+    /* opacity: 0.5; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    width: 97vw;
+    transition: 0.5s ease 0s;
+    animation: jiazai 1s;
+    overflow: hidden;
+}
+.titlebk .title{
+    
+    padding-top:20vh;
+    padding-left: 15vw;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgba(108, 177, 234, 0.9);
+    opacity: 0.8;
+
+}

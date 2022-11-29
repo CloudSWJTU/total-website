@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(../img/sishiyanghua.png);
+}
 #indexcontent{
     overflow: visible;
 }
-
+.carousel-item img{
+    height: 500px;
+}
+.carousel-item a{
+    display: flex;
+    justify-content: center;
+}
 .carouselinnerspace{
+    display: flex;
     overflow: hidden;
+    justify-items: center;
 }
 .gridbox{
     display: grid;
@@ -19,7 +30,6 @@
 }
 .contenttraninner{
     width: 100%;
-    background-color: rgb(255, 255, 255);
     height: 5rem;
 }
 .contenttran{
@@ -57,7 +67,6 @@
      box-shadow: 3px 3px 3px black;
      color: rgb(0, 0, 0);
      letter-spacing: 3px;
-    
 }
 hr{
     position: relative;
@@ -298,6 +307,7 @@ hr{
     border-radius: 25px;
     background-color: #eaeaea;
 }
+
 .association .innerass div:nth-child(1) .descrption{
     display: block;
     background-color: rgb(46, 216, 216);
@@ -315,17 +325,58 @@ hr{
 {
     transform: translate(0px,-100px);
 }
+.association .innerass div:nth-child(1):hover img
+{
+    transition: all .5s;
+    transform: scale(1.1);
+}
 .association .innerass div:nth-child(2)
 {
+    overflow: hidden;
     grid-area: assb;
     border-radius: 25px;
     background-color: aliceblue;
 }
+.association .innerass div:nth-child(2) .descrption{
+    display: block;
+    background-color: rgb(46, 216, 216);
+    position: relative;
+    top: 200px;
+    transition: all 1s;
+}
+.association .innerass div:nth-child(2):hover
+{
+    transition: all .5s;
+    overflow: visible;
+    transform: scale(1.1);
+}
+.association .innerass div:nth-child(2):hover .descrption
+{
+    transform: translate(0px,-100px);
+}
 .association .innerass div:nth-child(3)
 {
+    overflow: hidden;
     grid-area: assc;
     border-radius: 25px;
     background-color: blueviolet;
+}
+.association .innerass div:nth-child(3) .descrption{
+    display: block;
+    background-color: rgb(46, 216, 216);
+    position: relative;
+    top: 200px;
+    transition: all 1s;
+}
+.association .innerass div:nth-child(3):hover
+{
+    transition: all .5s;
+    overflow: visible;
+    transform: scale(1.1);
+}
+.association .innerass div:nth-child(3):hover .descrption
+{
+    transform: translate(0px,-100px);
 }
 .association .innerass div:nth-child(4)
 {

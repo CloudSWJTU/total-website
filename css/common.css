@@ -391,7 +391,8 @@ hr{
 }
 /* 页脚 */
 .footer{
-    height: 500px;
+    top: 40px;
+    height: auto;
     width: 100%;
     background-color: white;
     background-repeat: no-repeat;
@@ -412,6 +413,17 @@ hr{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+.footer .footertop{
+    height: 200px;
+}
+.footer .footerdown{
+    background-color: bisque;
+    height: 200px;
+    justify-content: space-between;
+}
+.footer .footerbottom div p{
+    font-size: 10px;
+}
 .fengong{
     flex-wrap: nowrap;
     text-decoration: none;
@@ -419,6 +431,7 @@ hr{
     align-items: center;
     justify-content: space-between;
 }
+/* 集合各种脚本的玩意 */
 .minipart{
     overflow: visible;
     border-radius: 25px;

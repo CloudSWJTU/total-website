@@ -28,36 +28,45 @@
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
       </div>
 
       <!-- 幻灯片/轮播 -->
       <div class="carousel-inner ">
         <div class="carousel-item active">
-          <a href="#"><img src="./img/3jiao_self.jpg" alt="3教" class="d-block "></a>
+          <a href="#"><img src="./img/网站介绍.png" alt="intro" class="d-block "></a>
+          <div class="carousel-caption">
+            <h3>欢迎来到云上交大</h3>
+            <p>芝士一个小组作业</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <a href="#"><img src="./img/qiang-1.jpg" alt="地标" class="d-block "></a>
           <div class="carousel-caption">
             <h3>交大历史</h3>
-            <p>1896-2022</p>
+            <p>1896-2022 辉煌与迁徙，赓续与伟大</p>
           </div>
         </div>
         <div class="carousel-item">
-          <a href="#"><img src="./img/湖_br_zsy.jpg" alt="lake" class="d-block "></a>
+          <a href="#"><img src="./img/山海关.jpg" alt="图书馆" class="d-block "></a>
           <div class="carousel-caption">
-            <h3>湖</h3>
-            <p>好玩捏</p>
+            <h3>交大历史</h3>
+            <p>旧址</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="#"><img src="./img/网络安全协会.png" alt="协会" class="d-block "></a>
+          <div class="carousel-caption">
+            <h3>协会</h3>
+            <p>网安协会</p>
           </div>
         </div>
         <div class="carousel-item">
           <a href="#"><img src="./img/library_self.jpg" alt="图书馆" class="d-block "></a>
           <div class="carousel-caption">
-            <h3>图书馆</h3>
-            <p>好玩捏</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="#"><img src="./img/tsg-1.jpg" alt="tsg" class="d-block "></a>
-          <div class="carousel-caption">
-            <h3>测试</h3>
-            <p>好玩捏</p>
+            <h3>地标</h3>
+            <p>图书馆电气院是卷王聚集地</p>
           </div>
         </div>
       </div>
@@ -147,7 +156,8 @@
     </div>
     <!-- indexpart -->
     <div id="indexcontent" class="contentpart gridbox">
-      <div>
+      <div class="indexcontentpartleft"></div>
+      <div class="indexcontentpartmiddle">
         <div class="gridbox aboutus">
           <!-- 网站介绍 -->
           <div class="intro">
@@ -358,7 +368,7 @@
       <button onclick="takebackminipart()" class="tackbackbutton" id="tackbackbutton"><i class="fa fa-angle-double-left"
           color="black"></i></button>
       <div class="indexcontentright">
-        <div id="minipart" class="minipart">
+        <div id="minipart" class="minipart" onmouseover=" minipartchangecolor1()" onmouseleave="minipartchangecolor2()">
           <button class="minipartclose" onclick="deleteminipart()"><i class="fa fa-close"></i></button>
           <button><i class="fa fa-delete"></i></button>
           <img class="logo" src="./img/logo.png" height="60px" width="190px" alt="">
@@ -378,9 +388,10 @@
             </div>
             <hr>
             <div class="liuyanban">
-                <div><h4>小型留言板</h4>
-                  <input type="text" value=" " class="liuyanbaninput">
-                </div>
+              <div>
+                <h4>小型留言板</h4>
+                <input type="text" value=" " class="liuyanbaninput">
+              </div>
             </div>
           </div>
         </div>
@@ -391,18 +402,39 @@
     </div>
     <div class="fengong">
       <h2>小组分工</h2>
-      <div class="gridbox">
-        <div class="profile">
-          <div>1··· </div>
-          <div>1</div>
-          <div>1</div>
-          <div>1</div>
-          <div>1</div>
-          <div>1</div>
+      <div class="flexbox fengonginner">
+        <div class="profile gridbox">
+          <div><img src="./img/hxy.png" alt=""></div>
+          <div><img src="./img/lxr.jpg" alt=""></div>
+          <div><img src="./img/kk.jpg" alt=""></div>
+          <div><img src="./img/pxt.jpg" alt=""></div>
+          <div><img src="./img/yyb.jpg" alt=""></div>
+          <div><img src="./img/zlb.jpg" alt=""></div>
         </div>
-        <div>
+        <div class="fengongjieshao gridbox">
           <div>
-            介绍
+              <h3>2021116386胡翔宇</h3>
+              <p>主页和导航</p>
+          </div>
+          <div>
+              <h3>2021113264李祥瑞</h3>
+              <p>地标</p>
+          </div>
+          <div>
+              <h3>2021110398康凯</h3>
+              <p>登录以及辅助</p>
+          </div>
+          <div>
+              <h3>2021110410潘笑天</h3>
+              <p>历史</p>
+          </div>
+          <div>
+              <h3>2021116330姚禹博</h3>
+              <p>服务区</p>
+          </div>
+          <div>
+              <h3>2021113534张力博</h3>
+              <p>社团</p>
           </div>
         </div>
       </div>
@@ -413,7 +445,7 @@
       <div class="footerinfo"> 云上交大提供西南交通大学的各类消息,目前还在建设 <strong>和wiki不同的是我们更具体</strong><a href="#" class="logo"><img
             src="./img/swjtu_logo_1.1_sm.png" height="100px" }" alt="胶带"></a>
         @2022.10.10-2022.12.19
-        <hr>
+        <br><br>
       </div>
       <div class="footerdown flexbox">
         <div>

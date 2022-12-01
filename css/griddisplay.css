@@ -71,7 +71,7 @@
 
     #div2{ padding-left: 10px;
             padding-right: 10px;
-            background-image: url(../pic/jxygjzs.png);
+            background-image: url(../img/jxygjzs.png);
            background-position: center;
           background-repeat: no-repeat;
           ;
@@ -95,7 +95,7 @@
   #div3{
     padding-left: 20px;
     padding-right: 20px;
-    background-image:url(../pic/校训.jpg);
+    background-image:url(../img/校训.jpg);
     background-size: auto;
   }
 
@@ -105,7 +105,7 @@
     padding-right: 10px;
     background-repeat: no-repeat;
     background-position: center,10px;
-    background-image: url(../pic/皇帝签名.jpg);
+    background-image: url(../img/皇帝签名.jpg);
     padding-top: 10vh;
     }
 #div4:after{
@@ -132,7 +132,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
   #div5{
     padding-left: 20px;
     padding-right: 20px;
-    background-image:url(../pic/竢实扬华.jpg);
+    background-image:url(../img/竢实扬华.jpg);
     background-size: 90%;
   }
 
@@ -150,7 +150,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    background-image:url(../pic/mtdc.png);
+    background-image:url(../img/mtdc.png);
     background-size: 90%;
   }
 
@@ -166,7 +166,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
   #div7{
     padding-left: 20px;
     padding-right: 20px;
-    background-image:url(../pic/合并校徽.jpg);
+    background-image:url(../img/合并校徽.jpg);
     background-size: 80%;
   }
 
@@ -207,7 +207,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
   #div9{
     padding-left: 20px;
     padding-right: 20px;
-    background-image:url(../pic/hnzq.png);
+    background-image:url(../img/hnzq.png);
   }
 
   #div10:hover:after{
@@ -220,12 +220,12 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
   #div10{
     padding-left: 10px;
     padding-right: 10px;
-    background-image:url(../pic/xiaoge.png);
+    background-image:url(../img/xiaoge.png);
   }
 
 
   #div1{
-    background-image: url(../pic/时间轴1.jpg);
+    background-image: url(../img/时间轴1.jpg);
     background-size: contain;
     justify-items: stretch;
     background-color:rgba(196, 199, 202, 0);
@@ -238,7 +238,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
       overflow: hidden;
   }
   #div11{
-    background-image: url(../pic/时间轴2.jpg);
+    background-image: url(../img/时间轴2.jpg);
     background-size: contain;
     justify-items: stretch;
     background-color:rgba(196, 199, 202, 0);
@@ -251,7 +251,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
       overflow: hidden;
   }
   #div12{
-    background-image: url(../pic/时间轴3.jpg);
+    background-image: url(../img/时间轴3.jpg);
     background-size: contain;
     justify-items: stretch;
     background-color:rgba(196, 199, 202, 0);
@@ -277,7 +277,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
     padding-top: 0;
     padding-left: 65%;
     padding-right: 5px;
-    background-image:url(../pic/平越.jpg);
+    background-image:url(../img/平越.jpg);
     background-size:90%;
     background-position:0,0;
     background-size: contain;
@@ -300,7 +300,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
   #div14{
     padding-left: 5px;
     padding-right: 5px;
-    background-image:url(../pic/多难.png);
+    background-image:url(../img/多难.png);
   }
   #div14 { grid-area: 5/ 5/ 6/ 6; }
   #div15{ grid-area: 7/ 1/ 8/ 3; }
@@ -321,7 +321,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
     padding-top: 5%;
     padding-left: 60%;
     padding-right: 5px;
-    background-image:url(../pic/老校门.jpg);
+    background-image:url(../img/老校门.jpg);
     background-size:90%;
     background-position:0,0;
     background-size: contain;
@@ -341,7 +341,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
   #div16{
     padding-left: 20px;
     padding-right: 20px;
-    background-image:url(../pic/汉白玉纪念碑.png);
+    background-image:url(../img/汉白玉纪念碑.png);
     background-size: 90%;
   }
 
@@ -377,7 +377,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
 #div19{
   padding-left: 5px;
   padding-right: 5px;
-  background-image:url(../pic/毛主席北方交大.jpg);
+  background-image:url(../img/毛主席北方交大.jpg);
   background-size: 90%;
 }
 
@@ -385,7 +385,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
 #MVvideo{
   padding: 5px;
   padding-top: 20%;
-  background-image: url(../pic/sishuinianhua.png);
+  background-image: url(../img/sishuinianhua.png);
   background-position-y: 6%;
   background-size: 80%;
   text-indent: 0em;
@@ -408,7 +408,7 @@ content:"由于铁路是新兴事物，加上清政府腐败，学校建设虽�
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  background-image:url(../pic/ybwpybyq.png);
+  background-image:url(../img/ybwpybyq.png);
   background-size: 90%;
 }
 #div20{ grid-area: 9/ 3/10/5 };

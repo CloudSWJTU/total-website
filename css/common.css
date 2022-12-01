@@ -5,10 +5,13 @@
 }
 
 body {
-    background-image: url(../img/sishiyanghua.png);
+    
 }
 #indexcontent{
     overflow: visible;
+}
+.carouselinnerspace{
+    background-image: url(../img/sishiyanghua.png);
 }
 .carousel-item img{
     height: 500px;
@@ -28,7 +31,9 @@ body {
 .flexbox{
     display:flex;
 }
+/* 模块过渡栏 */
 .contenttraninner{
+    z-index: 2;
     width: 100%;
     height: 5rem;
 }
@@ -56,6 +61,7 @@ body {
 .contenttran a{
     text-decoration: none;
     list-style: none;
+    border-radius: 25px;
     color: rgb(47, 173, 227);
     background-image: url(../img/南门_br_zsy.jpg);
     background-size: cover;
@@ -69,8 +75,7 @@ body {
      letter-spacing: 3px;
 }
 hr{
-    position: relative;
-    width: 200%;
+    z-index: 0;
 }
 /* 基本模块 */
 .contentpart{
@@ -78,19 +83,20 @@ hr{
     width: 100%;
     height: auto;
     background-color: white;
-    
+    gap: 20px;
     display: grid;
-    grid-template-columns: 8fr 1fr;
+    grid-template-columns: 9fr 1fr;
     justify-content: space-between;
     
 }
 /* 内容区框架 */
 /* 过渡 */
 .transpan{
-    background-color:#2196F3;
+    position: relative;
     width:100%;
-    height: 30px;
-    border-radius: 25px;
+    height: 1px;
+    border-style: solid;
+    border-bottom: rgb(168, 107, 107);
 }
 /* 介绍 */
 .aboutus{
@@ -104,7 +110,6 @@ hr{
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
-   background-color: #2196F3;
    gap: 20px;
 }
 .intro{
@@ -125,11 +130,14 @@ hr{
 }
 .diary{
     overflow: scroll;
-    background-color: rgb(255, 255, 255);
+    background-image:url(../img/jc-3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     height: 90%;
     padding: 0%;
 }
-.diary::-webkit-scrollbar {display:none
+.diary::-webkit-scrollbar {display:none;
 }
 .diary h1{
     text-align: center;
@@ -141,6 +149,7 @@ hr{
 }
 .time{
     font-size: 20px;
+    color: black;
     font-weight: bold;
     text-align: center;
     text-decoration: dashed;
@@ -208,6 +217,7 @@ hr{
     background-color: rgb(163, 172, 36);
     box-shadow: 10px;
     grid-template-rows: 100%;
+    z-index: 5;
 }
 .mapinb1{
     position: absolute;
@@ -274,17 +284,16 @@ hr{
 /* 社团 */
 .association{
     width:100%;
-    min-width: 800px;
     margin-right: 10%;
     position: relative;
-    transform: translateX(20%);
+    transform: translateX(3%);
     height: 500px;
     background-color: rgb(99, 99, 99);
     align-items: center;
 }   
 .association .innerass{
     overflow: visible;
-    width: 110%;
+    width: 100%;
     height: 400px;
 
     column-gap: 20px;
@@ -391,9 +400,12 @@ hr{
 }
 /* 页脚 */
 .footer{
-    height: 500px;
+    background-image: url(../img/0-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
     width: 100%;
-    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -412,43 +424,88 @@ hr{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.fengong{
-    flex-wrap: nowrap;
-    text-decoration: none;
-    font-size: 20px;
-    align-items: center;
-    justify-content: space-between;
+.footer .footerinfo{
+    height: auto;
+    color: white;
+    font-weight: 300;
 }
-.minipart{
-    overflow: visible;
+.footer .footerdown{
+    height: 200px;
+    justify-content:space-around;
+}
+.footer .footerdown div p{
+    color: white;
+    font-size: 20px;
+}
+.footer .footerdown .qrcode{
+    width: 100px;
+    height: 100px;    
+}
+.copyright{
+    background-color: black;
+    font-size: 20px;
+    height: 50px;
+    color: aliceblue;
+    min-width: 200px;
+    justify-content: center;
+}
+.indexcontentright{
+    border-left:1px dashed rgb(0, 0, 0);
+}
+/* 集合各种脚本的玩意 */
+ .minipart{
+    position: fixed;
     border-radius: 25px;
     padding-top: 30px;
-    background-color: #2196F3;
-    height: 10%;
-    width: 300px;
-    position: relative;
-    right: 20%;
-    top: 30px;
+    background-color:rgba(0, 137, 249, 0.5);
+    height: auto;
+    width: 200px;
+    right: 5%;
+    top: 100px;
+    z-index: 5;
+    font-size: 10px;
+    transition: all 0.3s;
 }
-
+.minipartclose{
+    position: absolute;
+    left: 90%;
+    height: 20px;
+    width: 20px;
+    top: -15px;
+}
+.tackbackbutton{
+    display: none;
+    position: fixed;
+    left: 99%;
+    top: 50%;
+}
 .innerminipart_return{
     position: relative;
     overflow: visible;
     background-color: aliceblue;
-    height:50px;
-    width: 90%;
+    height:20px;
     right: 60px;
     box-shadow: 5px 5px 5px rgb(105, 212, 231);
 }
 .innerminipart_return a{
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 15px;
     display: block;
     color: black;
 }
 .innerminipart_tran{
     vertical-align: top;
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
-    color:lightyellow
+    color:rgba(0, 0, 0, 0.4);
+}
+.innerminipart{
+    text-align: center;
+}
+.innerminipart audio{
+    position: relative;
+    left: -50px;
+}
+.innerminipart .liuyanbaninput{
+    height: 100px;
 }

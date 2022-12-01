@@ -10,12 +10,17 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="./js/mousecheck.js"> </script>
+  <script src="./js/click.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- aos包 -->
   <title>cloudswjtu_index</title>
 </head>
 
 <body>
-  <div >
+  <div>
     <div id="demo" class="carousel slide carouselinnerspace" data-bs-ride="carousel">
       <!-- 指标/点 -->
       <div class="carousel-indicators">
@@ -30,8 +35,8 @@
         <div class="carousel-item active">
           <a href="#"><img src="./img/3jiao_self.jpg" alt="3教" class="d-block "></a>
           <div class="carousel-caption">
-            <h3>3教</h3>
-            <p>好玩捏</p>
+            <h3>交大历史</h3>
+            <p>1896-2022</p>
           </div>
         </div>
         <div class="carousel-item">
@@ -49,7 +54,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <a href="#"><img src="./img/tsg-1.jpg" alt="tsg" class="d-block " ></a>
+          <a href="#"><img src="./img/tsg-1.jpg" alt="tsg" class="d-block "></a>
           <div class="carousel-caption">
             <h3>测试</h3>
             <p>好玩捏</p>
@@ -96,47 +101,48 @@
       <a href="#" class="logo"><img src="./img/swjtu_logo_1.1_sm.png" height="60px" }" alt="胶带"></a>
       <div class="navigation" style="text-align:center">
         <div class="dropdown">
-         <a href="#">历史<i class="fa fa-caret-down"></i></a>
-           <section class="dropdown-content">
-               <a href="#">迁徙</a>
-               <a href="#">故事</a>
-           </section>
+          <a href="#">历史<i class="fa fa-caret-down"></i></a>
+          <section class="dropdown-content">
+            <a href="#">迁徙</a>
+            <a href="#">故事</a>
+          </section>
         </div>
         <div class="dropdown"><a href="#">地图<i class="fa fa-caret-down"></i></a>
-               <section class="dropdown-content">
-                   <a href="#">地标</a>
-                   <a href="#">服务区</a>
-               </section>
+          <section class="dropdown-content">
+            <a href="#">地标</a>
+            <a href="#">服务区</a>
+          </section>
         </div>
         <div class="dropdown"><a href="#">社团<i class="fa fa-caret-down"></i></a>
-               <section class="dropdown-content">
-                   <a href="#">学习类</a>
-                   <a href="#">艺术类</a>
-                   <a href="#">体育类</a>
-               </section>
+          <section class="dropdown-content">
+            <a href="#">学习类</a>
+            <a href="#">艺术类</a>
+            <a href="#">体育类</a>
+          </section>
         </div>
         <div class="dropdown"><a href="#">其他<i class="fa fa-caret-down"></i></a>
-           <section class="dropdown-content">
-               <a href="https://wiki.swjtu.top/">SWJTU wiki</a>
-               <a href="https://www.swjtu.edu.cn/">胶带官网</a>
-           </section>
-    </div>
-       </div>
-     <div class="search">
-         <input type="text" placeholder="Search">
-         <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-     </div>
-     <div class="right">
-         <div class="rightdefault">
-         <a href="#"><img src="./img/登录.png"  height="60px"  alt="text" ></a>
-         </div>
-         
-         <button class="rightafter btn " data-bs-toggle="offcanvas"  data-bs-target="#slide" type="button" aria-controls="slide">
-                 <img src="./img/3.1列表.png" alt="" height="40px">
-         </button>
-     </div>
-    </div>
-   </header>
+          <section class="dropdown-content">
+            <a href="https://wiki.swjtu.top/">SWJTU wiki</a>
+            <a href="https://www.swjtu.edu.cn/">胶带官网</a>
+          </section>
+        </div>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search">
+        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+      </div>
+      <div class="right">
+        <div class="rightdefault">
+          <a href="#"><img src="./img/登录.png" height="60px" alt="text"></a>
+        </div>
+
+        <button class="rightafter btn " data-bs-toggle="offcanvas" data-bs-target="#slide" type="button"
+          aria-controls="slide">
+          <img src="./img/3.1列表.png" alt="" height="40px">
+        </button>
+      </div>
+      </div>
+    </header>
     <div class="transpan">
     </div>
     <!-- indexpart -->
@@ -225,40 +231,47 @@
             <hr>
             <div>
               <div class="time">2022.11.29-12.4</div>
-              <p>我是测试文本</p>
-              <p>我是测试文本</p>
-              <p>我是测试文本</p>
+              <p>
+                <strong>深入学习git,修改了代码托管方式</strong><br><br>
+                完成网站全部内容(剩下半个月进行微调，增加功能)<br><br>
+                制作答辩ppt<br>
+                完成项目安装使用文档<br><br>
+              </p>
             </div>
             <br>
             <hr>
             <div>
               <div class="time">2022.12.5-12.11</div>
-              <p>我是测试文本</p>
-              <p>我是测试文本</p>
-              <p>我是测试文本</p>
+              <p>
+                进行期末答辩<br><br>
+                完成python项目（根据需求准备好第三包环境文件要求）<br><br>
+                网站细节根据要求文件做最终修改<br><br>
+                所有成员完成微认证收集<br><br>
+                准备好项目结题报告模板
+              </p>
             </div>
             <br>
             <hr>
             <div>
               <div class="time">2022.12.12-12.17</div>
-              <p>我是测试文本</p>
-              <p>我是测试文本</p>
-              <p>我是测试文本</p>
+              <p>
+                在听取所有组工作之后，前端项目完工<br><br>
+                分工完成项目结题报告<br><br>
+                完成项目演示视频<br><br>
+              </p>
             </div>
             <br>
             <hr>
             <div>
               <div class="time">2022.12.18-12.26</div>
-              <p>我是测试文本</p>
-              <p>我是测试文本</p>
-              <p>我是测试文本</p>
+              <p>包装好所有文件，提交项目</p>
             </div>
             <br>
             <hr>
           </div>
         </div>
         <div class="contenttraninner"></div>
-        <div class="flexbox contenttran">
+        <div class="flexbox contenttran contenttranhis">
           <div>历史</div>
           <div><a href="#">learnmore</a></div>
         </div>
@@ -280,7 +293,7 @@
           </div>
         </div>
         <div class="contenttraninner"></div>
-        <div class="flexbox contenttran">
+        <div class="flexbox contenttran contenttranmap">
           <div>地图</div>
           <div><a href="#">learnmore</a></div>
         </div>
@@ -289,42 +302,41 @@
           <div class="flexbox mapinb1">
             <ul>
               <li><a href=""><i class="fa fa-heart-o" style="font-size:24px;color: white;"></i>标志建筑</a></li>
-              <li><a href=""><i class="fa fa-search" style="font-size:24px;color: white;"></i>隐蔽地点</a></li>
-              <li><a href=""><i class="fa fa-music" style="font-size:24px;color: white;"></i>音频专区</a></li>
+              <li><a href=""><i class="fa fa-search" style="font-size:24px;color: white;"></i>全景地图</a></li>
+              <li><a href=""><i class="fa fa-music" style="font-size:24px;color: white;"></i>快递查询</a></li>
               <li><a href=""><i class="fa fa-recycle" style="font-size:24px;color: white;"></i>服务推荐</a></li>
             </ul>
           </div>
           <div class="gridbox mapinb2">
-            
+
             <div>2</div>
             <div>4</div>
             <div>3</div>
           </div>
         </div>
         <div class="contenttraninner"></div>
-        <div class="flexbox contenttran">
+        <div class="flexbox contenttran contenttranass">
           <div>社团</div>
           <div><a href="#">learnmore</a></div>
         </div>
         <hr>
         <div class="gridbox association">
           <div class="gridbox innerass">
-            <div >1
-              <img src="./img/校训.jpg" alt="">
+            <div>1
               <div class="descrption">
                 <h1>test</h1>
                 <p>我是参考文本</p>
                 <p>我是参考文本</p>
               </div>
             </div>
-            <div >2
+            <div>2
               <div class="descrption">
                 <h1>test</h1>
                 <p>我是参考文本</p>
                 <p>我是参考文本</p>
               </div>
             </div>
-            <div >3
+            <div>3
               <div class="descrption">
                 <h1>test</h1>
                 <p>我是参考文本</p>
@@ -332,50 +344,103 @@
               </div>
             </div>
             <div>
-                <p style="font-size: xx-large;">|</p>
-                <p style="font-size: xx-large;">|</p>
-                <p style="font-size: xx-large;">|</p>
-                <p style="font-size: xx-large;">|</p>
-                <p style="font-size: xx-large;">|</p>
-                <p style="font-size: xx-large;">|</p>
+              <p style="font-size: xx-large;">|</p>
+              <p style="font-size: xx-large;">|</p>
+              <p style="font-size: xx-large;">|</p>
+              <p style="font-size: xx-large;">|</p>
+              <p style="font-size: xx-large;">|</p>
+              <p style="font-size: xx-large;">|</p>
             </div>
             <div>5</div>
           </div>
         </div>
-
       </div>
-      <div id="indexminipart_right" class="minipart">
-        <img src="./img/logo.png" alt="">
-        <div class="innerminipart_return">
-          <a href="#">回到上方<i style="font-size:24px" class="fa">&#xf0a5</i></a>
+      <button onclick="takebackminipart()" class="tackbackbutton" id="tackbackbutton"><i class="fa fa-angle-double-left"
+          color="black"></i></button>
+      <div class="indexcontentright">
+        <div id="minipart" class="minipart">
+          <button class="minipartclose" onclick="deleteminipart()"><i class="fa fa-close"></i></button>
+          <button><i class="fa fa-delete"></i></button>
+          <img class="logo" src="./img/logo.png" height="60px" width="190px" alt="">
+          <div class="innerminipart_return">
+            <a href="#">回到上方<i style="font-size:10px" class="fa">&#xf0a5</i></a>
+          </div>
+          <hr>
+          <div class="innerminipart_tran"><strong>一些小功能集合</strong></div>
+          <hr>
+          <div class="innerminipart">
+            <div class="xiaoge">
+              <h4>校歌播放</h4>
+              <audio controls="controls" loop="loop">
+                <source src="./movie and music/刘屹然 - 西南交通大学校歌.mp3" type="audio/mp3">
+                </source>
+              </audio>
+            </div>
+            <hr>
+            <div class="liuyanban">
+                <div><h4>小型留言板</h4>
+                  <input type="text" value=" " class="liuyanbaninput">
+                </div>
+            </div>
+          </div>
         </div>
-        <hr>
-        <div class="innerminipart_tran">芝士校歌</div>
-        <audio controls="controls" loop="loop">
-          <source src="./movie and music/刘屹然 - 西南交通大学校歌.mp3" type="audio/mp3">
-          </source>
-        </audio>
       </div>
     </div>
 
     <div class="transpan">
     </div>
+    <div class="fengong">
+      <h2>小组分工</h2>
+      <div class="gridbox">
+        <div class="profile">
+          <div>1··· </div>
+          <div>1</div>
+          <div>1</div>
+          <div>1</div>
+          <div>1</div>
+          <div>1</div>
+        </div>
+        <div>
+          <div>
+            介绍
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- 页脚 -->
     <div class=" footer">
       <hr>
-      <div > 云上交大提供西南交通大学的各类消息,目前还在建设 <strong>和wiki不同的是我们更具体</strong><a href="#"
-          class="logo"><img src="./img/swjtu_logo_1.1_sm.png" height="100px" }" alt="胶带"></a>
+      <div class="footerinfo"> 云上交大提供西南交通大学的各类消息,目前还在建设 <strong>和wiki不同的是我们更具体</strong><a href="#" class="logo"><img
+            src="./img/swjtu_logo_1.1_sm.png" height="100px" }" alt="胶带"></a>
         @2022.10.10-2022.12.19
         <hr>
       </div>
-      <h2>小组分工</h2>
-      <div class="flexbox fengong">
-        <div>导航---胡翔宇</div>
-        <div>历史---潘笑天</div>
-        <div>地标---李祥瑞</div>
-        <div>社团----张力博</div>
-        <div>服务区----姚禹博</div>
-        <div>登录及辅助---康凯</div>
+      <div class="footerdown flexbox">
+        <div>
+          <h3>地址<i class="fa fa-address-book-o"></i></h3>
+          <p>四川省成都市郫都区犀安路999号</p>
+        </div>
+        <div>
+          <h3>邮编<i class="	fa fa-book"></i></h3>
+          <p>611756</p>
+        </div>
+        <div>
+          <h3>联系我们<i class="	fa fa-connectdevelop"></i></h3>
+          <p>2339126387@qq.com</p>
+        </div>
+        <div>
+          <h3>github主页<i class="fa fa-github"></i></h3>
+          <div>
+
+            <a href="https://github.com/CloudSWJTU/total-website"><img class="qrcode" src="./img/qrcodegithub.png"
+                alt="主页"></a>
+
+          </div>
+        </div>
+      </div>
+      <div class="transpan"></div>
+      <div class=" flexbox copyright ">
+        Copyright © 2022 Cloudswjtu.All rights reserved.
       </div>
     </div>
   </body>

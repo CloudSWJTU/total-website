@@ -177,48 +177,164 @@ hr{
 
 /* 历史 */
 .history{
-    width:80%;
-    margin-left: 10%;
-    height:800px;
-    background-color: rgb(217, 31, 31);
+    height: 600px;
+    width:90%;
+    margin-left:5%;
+    margin-right: 5%;
+    background-color: rgb(106, 150, 243);
     box-shadow: 10px;
-    grid-template-columns: auto;
-    grid-template-rows: 70% 30%;
-    grid-template-areas:
-            "inb1"
-            "inb2";
+    grid-template-columns: 99%;
+    grid-template-rows: 99%;
+    justify-content: center;
+    align-items: center;
 }
 .historyinb1{
-    grid-area: inb1;
-    background-color: beige;
+    height: 90%;
+    position: relative;
+    top: 10px;
+    background-image: url(../img/d1-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     gap:20px;
     grid-template-rows:auto;
     grid-template-columns:repeat(4,25%);
     grid-template-areas: 
           ". b . d "
-          "a .  c. "
+          ". . . . "
           "a .  c. ";
 }
 .historyinb1 div:nth-child(even){
+    position: relative;
+    height: 200px;
     transform:translateY(40px);
     background-color: #2196F3;
 }
 .historyinb1 div:nth-child(odd){
-    background-color: rgb(142, 136, 136);
-    transform:translateX(-50px);
+    position: relative;
+    height: 200px;
+    transform: translateY(-20px);
+    background-color: #2196F3;
 }
 .item-a {
     grid-area: a;
+    background-image: url(../img/d5-1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    border: solid rgb(207, 203, 203) 3px;
+    transition-delay: 0.5s;
+    transition: 0.5s;
+  }
+  .historyinb1 .item-a .item-aintro{
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -200px;
+    height: 170px;
+    width: 100%;
+    background-color: rgba(214, 215, 216, 0.5);
   }
   .item-b {
+    background-image: url(../img/d5-1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    border: solid rgb(207, 203, 203) 3px;
+    transition-delay: 0.5s;
+    transition: 0.5s;
     grid-area: b;
   }
+  .historyinb1 .item-b .item-bintro{
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 300px;
+    height: 170px;
+    width: 100%;
+    background-color: rgba(214, 215, 216, 0.5);
+  }
   .item-c {
+    background-image: url(../img/d5-1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    border: solid rgb(207, 203, 203) 3px;
+    transition-delay: 0.5s;
+    transition: 0.5s;
     grid-area: c;
   }
+  .historyinb1 .item-c .item-cintro{
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -200px;
+    height: 170px;
+    width: 100%;
+    background-color: rgba(214, 215, 216, 0.5);
+  }
   .item-d {
+    background-image: url(../img/d5-1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    border: solid rgb(207, 203, 203) 3px;
+    transition-delay: 0.5s;
+    transition: 0.5s;
     grid-area: d;
   }
+  .historyinb1 .item-d .item-dintro{
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 300px;
+    height: 170px;
+    width: 100%;
+    background-color: rgba(214, 215, 216, 0.5);
+  }
+  .historyinb1 .item-a:hover{
+         transition-timing-function: ease-in-out;
+         border: solid rgb(0, 0, 0) 3px;
+        position: relative;
+        translate: -10px -20px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.616);
+  }
+  .historyinb1 .item-b:hover{
+    transition-timing-function: ease-in-out;
+    border: solid rgb(0, 0, 0) 3px;
+   position: relative;
+   translate: -10px -20px;
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.616);
+}
+.historyinb1 .item-c:hover{
+    transition-timing-function: ease-in-out;
+    border: solid rgb(0, 0, 0) 3px;
+   position: relative;
+   translate: -10px -20px;
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.616);
+}
+.historyinb1 .item-d:hover{
+    transition-timing-function: ease-in-out;
+    border: solid rgb(0, 0, 0) 3px;
+   position: relative;
+   translate: -10px -20px;
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.616);
+}
+  /* .historyinb1 .item-b:hover{
+    background-color: #989898;
+    transition: 0.2s;
+
+}
+.historyinb1 .item-c:hover{
+    background-color: #989898;
+    transition: 0.2s;
+
+}
+.historyinb1 .item-d:hover{
+    background-color: #989898;
+    transition: 0.2s;
+
+} */
   .histroyinb2{
     overflow: hidden;
     grid-area: inb2;
@@ -309,6 +425,10 @@ hr{
     align-items: center;
 }   
 .association .innerass{
+    background-image: url(../img/background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     overflow: visible;
     width: 100%;
     height: 400px;
@@ -328,24 +448,33 @@ hr{
 
 .association .innerass div:nth-child(1)
 {
+    position: relative;
     overflow: hidden;
     grid-area: assa;
     border-radius: 25px;
     background-color: #eaeaea;
 }
-
-.association .innerass div:nth-child(1) .descrption{
-    display: block;
-    background-color: rgb(46, 216, 216);
+.association .innerass div:nth-child(1) img{
     position: relative;
-    top: 200px;
+    height: 100%;
+
+}
+.association .innerass div:nth-child(1) img:hover{
+    transform: scale(1.1);
+    
+}
+.association .innerass div:nth-child(1) .descrption{
+    width: 100%;
+    display: block;
+    background-color: rgba(181, 217, 248, 0.4);
+    position: absolute;
+    top: 210px;
     transition: all 1s;
 }
 .association .innerass div:nth-child(1):hover
 {
+    border: solid burlywood 4px;
     transition: all .5s;
-    overflow: visible;
-    transform: scale(1.1);
 }
 .association .innerass div:nth-child(1):hover .descrption
 {
@@ -354,56 +483,86 @@ hr{
 .association .innerass div:nth-child(1):hover img
 {
     transition: all .5s;
-    transform: scale(1.1);
 }
+/* ---------------- */
 .association .innerass div:nth-child(2)
 {
+    position: relative;
     overflow: hidden;
     grid-area: assb;
     border-radius: 25px;
-    background-color: aliceblue;
+    background-color: #eaeaea;
+}
+.association .innerass div:nth-child(2) img{
+    position: relative;
+    height: 100%;
+
+}
+.association .innerass div:nth-child(2) img:hover{
+    transform: scale(1.1);
+    
 }
 .association .innerass div:nth-child(2) .descrption{
+    width: 100%;
     display: block;
-    background-color: rgb(46, 216, 216);
-    position: relative;
-    top: 200px;
+    background-color:  rgba(181, 217, 248, 0.4);
+    position: absolute;
+    top: 210px;
     transition: all 1s;
 }
 .association .innerass div:nth-child(2):hover
 {
+    border: solid burlywood 4px;
     transition: all .5s;
-    overflow: visible;
-    transform: scale(1.1);
 }
 .association .innerass div:nth-child(2):hover .descrption
 {
     transform: translate(0px,-100px);
 }
+.association .innerass div:nth-child(2):hover img
+{
+    transition: all .5s;
+}
+/* ------ */
 .association .innerass div:nth-child(3)
 {
+    position: relative;
     overflow: hidden;
     grid-area: assc;
     border-radius: 25px;
-    background-color: blueviolet;
+    background-color: #eaeaea;
+}
+.association .innerass div:nth-child(3) img{
+    position: relative;
+    height: 100%;
+
+}
+.association .innerass div:nth-child(3) img:hover{
+    transform: scale(1.1);
+    
 }
 .association .innerass div:nth-child(3) .descrption{
+    width: 100%;
     display: block;
-    background-color: rgb(46, 216, 216);
-    position: relative;
-    top: 200px;
+    background-color:  rgba(181, 217, 248, 0.4);
+    position: absolute;
+    top: 210px;
     transition: all 1s;
 }
 .association .innerass div:nth-child(3):hover
 {
+    border: solid burlywood 4px;
     transition: all .5s;
-    overflow: visible;
-    transform: scale(1.1);
 }
 .association .innerass div:nth-child(3):hover .descrption
 {
     transform: translate(0px,-100px);
 }
+.association .innerass div:nth-child(3):hover img
+{
+    transition: all .5s;
+}
+
 .association .innerass div:nth-child(4)
 {
     grid-area: assd;
@@ -412,8 +571,28 @@ hr{
 .association .innerass div:nth-child(5)
 {
     grid-area: asse;
-    border-radius: 25px;
-    background-color: brown;
+    border-radius: 10px;
+    background-color: rgb(199, 192, 192);
+}
+.association .innerass div:nth-child(5) .associationofficial a{
+    list-style: none;
+    color:#0f326a;
+    display:block;
+    margin: 0 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.association .innerass div:nth-child(5) .assadvertisement{
+    position: relative;
+    height: 80%;
+    border-radius: 15px;
+    background-color: #a1c4fd;
+}
+.association .innerass div:nth-child(5) .assadvertisementinner{
+    position: relative;
+    height: 80%;
+    background-image: url(../img/0-1.jpg);
+    background-size: cover;
 }
 /* 小组分工 */
 .fengong h2{

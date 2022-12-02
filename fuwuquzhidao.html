@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/><strong></strong>
+		<!--jQuery文件务必在bootstrap.min.js之前引入-->
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<!--再引入bootstrap.min.js-->
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<style>
+			body{
+			background-image: url("/img/bg.png");
+			background-repeat: repeat repeat;
+			background-size: auto auto;
+			}
+			.grid-container {
+              display: grid;
+              grid-gap: 10px;
+              background-color: #bdbdbd29;
+              padding: 10px;
+            }
+            
+            .grid-item {
+              background-color: rgba(255, 255, 255, 0.8);
+              text-align: center;
+              padding: 20px;
+              font-size: 30px;
+            }
+            
+            .item1 {
+              grid-column: 1 / span 2;
+              grid-row: 1;
+            }
+            
+            .item2 {
+              grid-column: 3;
+              grid-row: 1 / span 2;
+            }
+            
+            .item5 {
+              grid-column: 1 / span 3;
+              grid-row: 3;
+            }
+			video {
+			 width: 260%;
+			 height: auto;
+			}
+		
+
+		</style>
+		<script>
+			function show_time() {
+				var time=new Date();
+				var year=time.getFullYear();
+				var month=time.getMonth()+1;
+				var day=time.getDate();
+				var hour=time.getHours();
+				var min=time.getMinutes();
+				var sec=time.getSeconds();
+				document.getElementById("myclock").innerHTML="<h1>*"+year+"-"+month+"-"+day+"*&nbsp;&nbsp;" +hour+":"+min+":"+sec;
+			}
+			//serInterval:以相同的时间间隔执行某个操作
+			setInterval("show_time()",1000);
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					
+				
+					
+						<h1 align="center">
+							胶带服务指导
+						</h1>
+						<h2 align="center">
+							欢迎使用
+						</h2>
+						<p align="center">
+							 <a class="btn btn-primary btn-large" href="https://www.swjtu.edu.cn/xysh.htm">了解更多</a>
+						</p>
+	
+					<div class="container" >
+						<div class="row clearfix">
+							<div class="col-md-12 column">
+								<div class="jumbotron">
+									<h2 align="center">
+									<em>
+										一些特别的服务<br>
+										都在这里
+									</em> 
+								    
+									</h2>	
+								</div>	
+							</div>
+						</div>
+					</div>			
+				<div class="grid-container">
+					<div class="grid-item item5">
+						<div class="grid-container">
+							<div class="grid-item item4">
+								<p align="center">
+									配钥匙<br>
+									理发店<br>
+									后勤服务中心<br>
+									干洗店
+								</p>						
+							</div>
+							<div class="grid-item item2">
+								<div class="nav nav-pills col-md-5">
+									<div class="center">
+										<h2>舌尖上的交大</h2>						       
+									
+									
+									  <br/>
+									  
+										<video width="400" controls>
+											<source src="./img/001.mp4" type="video/mp4">
+										</video>
+										<img  src="./img/bg.png" width="270%" height="270%"></img>
+									</div>
+									
+								</div>
+							</div>	
+							
+							<div class="grid-item item3">	
+								<p align="center">
+									药店<br>
+									物业服务中心<br>
+									修自行车、电动车<br>
+									校医院	
+								</p>
+
+							</div>
+							<div class="grid-item item1">
+								<img  src="./img/mys.jpg" width="100%" height="100%"></img>
+							</div>	
+						</div>
+					</div>		
+						<div class="grid-item item3">
+							<div class="grid-container">
+								<div class="gird-item item3">	
+									<h1 align="center">菜鸟驿站</h1>
+									<p align="center">
+										北区菜鸟驿站<br>
+										北区20栋旁菜鸟驿站<br>
+										南区建行旁菜鸟驿站
+									</p>
+									<ul class="nav nav-pills col-lg-offset-5">
+										<li class="active" ><a href="https://yz.cainiao.com/">快递查询</a></li>	
+									</ul>
+								</div>
+								<div class="gird-item item4">
+									<h1 align="center">顺丰快递</h1>
+									
+									<p align="center">
+										一服二楼
+									</p>
+									<ul class="nav nav-pills col-lg-offset-5">
+										<li class="active"><a href="https://www.sf-express.com/we/ow/chn/sc/index">快递查询</a></li>
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="grid-item item4">
+							<div class="grid-container">
+								<div class="gird-item item1">
+									<h1 align="center">极兔快递</h1>
+					
+									
+									<p align="center">
+										一服正后方
+									</p>
+									<ul class="nav nav-pills col-lg-offset-5">
+											<li class="active"><a href="https://www.jtexpress.cn/">快递查询</a></li>
+					
+									</ul>
+								</div>
+								
+								<div class="gird-item item3">
+									<h1 align="center">EMS站点</h1>
+					
+									
+									<p align="center">
+										物业服务中心斜对面
+									</p>
+									<ul class="nav nav-pills col-lg-offset-5">
+											<li class="active"><a href="https://www.ems.com.cn/">快递查询</a></li>
+					
+									</ul>
+								</div>
+								<div class="gird-item item4">
+									<h1 align="center">京东快递</h1>
+					
+									
+									<p align="center">
+										北区20栋旁<br>
+										菜鸟驿站旁边
+									</p>
+									<ul class="nav nav-pills col-lg-offset-5">
+											<li class="active"><a href="https://www.jdl.com/?from=openv">快递查询</a></li>
+					
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="grid-item item2">
+							<img  src="./img/ssyh.jpg" width="100%" height="100%"></img>
+						</div>	
+						
+						<div id="myclock"></div>	
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

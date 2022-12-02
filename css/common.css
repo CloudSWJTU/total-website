@@ -218,7 +218,7 @@ hr{
 }
 .item-a {
     grid-area: a;
-    background-image: url(../img/d5-1.JPG);
+    background-image: url(../img/交大迁校.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;
@@ -227,6 +227,7 @@ hr{
     transition: 0.5s;
   }
   .historyinb1 .item-a .item-aintro{
+    display: none;
     justify-content: center;
     flex-wrap: wrap;
     position: absolute;
@@ -236,7 +237,7 @@ hr{
     background-color: rgba(214, 215, 216, 0.5);
   }
   .item-b {
-    background-image: url(../img/d5-1.JPG);
+    background-image: url(../img/合并校徽.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;
@@ -246,6 +247,7 @@ hr{
     grid-area: b;
   }
   .historyinb1 .item-b .item-bintro{
+    display: none;
     justify-content: center;
     flex-wrap: wrap;
     position: absolute;
@@ -255,7 +257,7 @@ hr{
     background-color: rgba(214, 215, 216, 0.5);
   }
   .item-c {
-    background-image: url(../img/d5-1.JPG);
+    background-image: url(../img/emxq.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;
@@ -265,6 +267,7 @@ hr{
     grid-area: c;
   }
   .historyinb1 .item-c .item-cintro{
+    display: none;
     justify-content: center;
     flex-wrap: wrap;
     position: absolute;
@@ -274,7 +277,7 @@ hr{
     background-color: rgba(214, 215, 216, 0.5);
   }
   .item-d {
-    background-image: url(../img/d5-1.JPG);
+    background-image: url(../img/xh-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;
@@ -284,6 +287,7 @@ hr{
     grid-area: d;
   }
   .historyinb1 .item-d .item-dintro{
+    display: none;
     justify-content: center;
     flex-wrap: wrap;
     position: absolute;
@@ -299,12 +303,18 @@ hr{
         translate: -10px -20px;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.616);
   }
+  .historyinb1 .item-a:hover .item-aintro{
+        display: grid;
+  }
   .historyinb1 .item-b:hover{
     transition-timing-function: ease-in-out;
     border: solid rgb(0, 0, 0) 3px;
    position: relative;
    translate: -10px -20px;
    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.616);
+}
+.historyinb1 .item-b:hover .item-bintro{
+    display: grid;
 }
 .historyinb1 .item-c:hover{
     transition-timing-function: ease-in-out;
@@ -313,12 +323,18 @@ hr{
    translate: -10px -20px;
    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.616);
 }
+.historyinb1 .item-c:hover .item-cintro{
+    display: grid;
+}
 .historyinb1 .item-d:hover{
     transition-timing-function: ease-in-out;
     border: solid rgb(0, 0, 0) 3px;
    position: relative;
    translate: -10px -20px;
    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.616);
+}
+.historyinb1 .item-d:hover .item-dintro{
+    display: grid;
 }
   /* .historyinb1 .item-b:hover{
     background-color: #989898;
@@ -348,7 +364,6 @@ hr{
     overflow: visible;
     width: 100%;
     height:400px;
-    background-color: rgb(163, 172, 36);
     box-shadow: 10px;
     grid-template-rows: 100%;
     z-index: 5;
@@ -381,40 +396,59 @@ hr{
 }
 .mapinb2{
     overflow: visible;
-    background-image:url(../img/map_3d.png);
+    background-image: url(../img/map_3d.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    gap: 5px;
-    grid-template-columns: repeat(5,20%);
-    grid-template-rows: repeat(5,20%);
-    grid-template-areas: 
-    '. . . . .'
-    '. mapb . . .'
-    '. . mapc . .'
-    '. . mapc . .'
-    '. . . . mapa';
+    background-attachment: fixed;
     
 }
 .mapinb2 div{
-    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
 }
 .mapinb2 div:nth-child(1)
 {
-
-    grid-area: mapa;
-    background-color: #2196F3;
+    margin-left: 15vw;
+    position: relative;
+    transition: 0.5s;
+     top: 4vw;
+    position: relative;
+    height: 70%;
+    width: 20vw;
+    background-color: #ffffff;
+    
+}
+.mapinb2 div img{
+    width: 100%;
 }
 .mapinb2 div:nth-child(2)
-{
-    grid-area: mapb;
-    background-color: black;
+{   
+    position: relative;
+    transition: 0.5s;
+    top: 4vw;
+    position: relative;
+    height: 70%;
+    width: 20vw;
+    background-color: rgb(228, 141, 141);
 }
 .mapinb2 div:nth-child(3)
 {
-
-    grid-area: mapc;
-    background-color: blueviolet;
+    position: relative;
+    transition: 0.5s;
+    top: 4vw;
+    position: relative;
+    height: 70%;
+    width: 20vw;
+    background-color: rgb(210, 171, 245);
 }
+.mapinb2 div:hover
+{
+   
+    width: 30vw;
+    background-color: rgba(64, 166, 249, 0.489);
+}
+
 /* 社团 */
 .association{
     width:100%;
@@ -445,7 +479,14 @@ hr{
     '. . . assd asse';
     text-align: center;
 }
+.association .innerass div .descrption h1{
+    font-size: 3vw;
+    color:white;
+}
+.association .innerass div .descrption p{
+    font-size: 1vw;
 
+}
 .association .innerass div:nth-child(1)
 {
     position: relative;
@@ -468,7 +509,7 @@ hr{
     display: block;
     background-color: rgba(181, 217, 248, 0.4);
     position: absolute;
-    top: 210px;
+    top: 23vw;
     transition: all 1s;
 }
 .association .innerass div:nth-child(1):hover
@@ -478,7 +519,7 @@ hr{
 }
 .association .innerass div:nth-child(1):hover .descrption
 {
-    transform: translate(0px,-100px);
+    transform: translate(0px,-15vw);
 }
 .association .innerass div:nth-child(1):hover img
 {
@@ -507,7 +548,7 @@ hr{
     display: block;
     background-color:  rgba(181, 217, 248, 0.4);
     position: absolute;
-    top: 210px;
+    top: 23vw;
     transition: all 1s;
 }
 .association .innerass div:nth-child(2):hover
@@ -517,7 +558,7 @@ hr{
 }
 .association .innerass div:nth-child(2):hover .descrption
 {
-    transform: translate(0px,-100px);
+    transform: translate(0px,-15vw);
 }
 .association .innerass div:nth-child(2):hover img
 {
@@ -546,7 +587,7 @@ hr{
     display: block;
     background-color:  rgba(181, 217, 248, 0.4);
     position: absolute;
-    top: 210px;
+    top: 23vw;
     transition: all 1s;
 }
 .association .innerass div:nth-child(3):hover
@@ -556,7 +597,7 @@ hr{
 }
 .association .innerass div:nth-child(3):hover .descrption
 {
-    transform: translate(0px,-100px);
+    transform: translate(0px,-15vw);
 }
 .association .innerass div:nth-child(3):hover img
 {
@@ -570,6 +611,7 @@ hr{
 }
 .association .innerass div:nth-child(5)
 {
+    overflow: hidden;
     grid-area: asse;
     border-radius: 10px;
     background-color: rgb(199, 192, 192);
@@ -579,7 +621,7 @@ hr{
     color:#0f326a;
     display:block;
     margin: 0 30px;
-    font-size: 20px;
+    font-size: 1vw;
     text-decoration: none;
 }
 .association .innerass div:nth-child(5) .assadvertisement{
@@ -587,6 +629,9 @@ hr{
     height: 80%;
     border-radius: 15px;
     background-color: #a1c4fd;
+}
+.association .innerass div:nth-child(5) .assadvertisement h2{
+    font-size: 2.3vw;
 }
 .association .innerass div:nth-child(5) .assadvertisementinner{
     position: relative;
@@ -617,11 +662,21 @@ hr{
     grid-template-rows: 10vw 10vw;
     transition: all 0.5s;
 }
+.fengonginner .profile div:hover {
+    transition: 0.5s;
+    position: relative;
+    transform: scale(1.2);
+    transform: translateY(-5px);
+    border:solid gold 3px;
+   
+}
+
 .fengonginner .profile img{
     width: 10vw;
     height: 10vw;
 }
 .fengonginner .profile div{
+    
     border:  white 2px;
     border-style: solid;
     border-radius: 50%;
@@ -632,8 +687,8 @@ hr{
     border:black;
 }
 .fengongjieshao{
+    transition: all 0.5s;
     position: relative;
-   
     top: 1vw;
     left: 9vw;
     column-gap: 6vw;
@@ -643,6 +698,7 @@ hr{
     padding-top: 10px;
 }
 .fengongjieshao div{
+    background-color: #a1c4fd;
     width: 13vw;
     height: 9vw;
     border: #989898 1px;

@@ -1,0 +1,50 @@
+Date : 2022-12-04 16:36:31
+Directory : d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26
+Total : 22 files,  550 codes, 17 comments, 10 blanks, all 577 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |          7 |        285 |         15 |         24 |        324 |
+| JavaScript |          3 |        175 |          1 |          7 |        183 |
+| HTML       |         12 |         90 |          1 |        -21 |         70 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                       | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                          |         22 |        550 |         17 |         10 |        577 |
+| css                                                                                        |          7 |        285 |         15 |         24 |        324 |
+| js                                                                                         |          3 |        175 |          1 |          7 |        183 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                   | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\base.css              | CSS        |          5 |          0 |          0 |          5 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\common.css            | CSS        |         53 |          0 |          3 |         56 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\fuwuquzhidaostyle.css | CSS        |        135 |          0 |          3 |        138 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\index.css             | CSS        |          5 |          0 |          0 |          5 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\sec.css               | CSS        |          6 |          0 |          0 |          6 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\shangchuan-dibiao.css | CSS        |          2 |          0 |          0 |          2 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\shangchuanhis.css     | CSS        |         79 |         15 |         18 |        112 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\fuwuquzhidao.html         | HTML       |        -20 |          0 |        -22 |        -42 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\index.html                | HTML       |         15 |          1 |         -1 |         15 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\index1.html               | HTML       |          1 |          0 |          0 |          1 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\index2.html               | HTML       |          1 |          0 |          0 |          1 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\jdhistory.html            | HTML       |         73 |          0 |          1 |         74 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\club.js                | JavaScript |        127 |          0 |          7 |        134 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\fengongstylechange.js  | JavaScript |         36 |          0 |          0 |         36 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\fuwuqu_time.js         | JavaScript |         12 |          1 |          0 |         13 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\login.html                | HTML       |        164 |          7 |         24 |        195 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\swjtudb.html              | HTML       |          9 |          0 |          1 |         10 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\tiyujiankang.html         | HTML       |          1 |          0 |          0 |          1 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\wenhuayishu.html          | HTML       |          1 |          0 |          0 |          1 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\xiaoyuanfuwu.html         | HTML       |          1 |          0 |          0 |          1 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\zhiyuangongyi.html        | HTML       |          1 |          0 |          0 |          1 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\登录&注册.html                | HTML       |       -157 |         -7 |        -24 |       -188 |
+| Total                                                                                      |            |        550 |         17 |         10 |        577 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

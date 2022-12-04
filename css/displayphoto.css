@@ -10,7 +10,7 @@
     position:relative;
     padding: 0;
     top: 50px;
-    left: 0;
+    left: 15%;
     right: 0;
     margin: auto;
     width: auto;
@@ -55,5 +55,5 @@
 }
 
 #banner .right {
-    right: 0;
+    right: 25%;
 }

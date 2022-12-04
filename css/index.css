@@ -18,7 +18,7 @@
 }
 
 .main {
-    margin-top: 20px;
+    margin-top: 10vw;
 }
 
 /* 导航栏部分 */
@@ -643,4 +643,9 @@ div[class^=tdk] {
 }
 .wzc a {
     color: #000;
+}
+.dbshangchuancenter{
+    position: absolute;
+    left: 80%;
+    top: 80%;
 }

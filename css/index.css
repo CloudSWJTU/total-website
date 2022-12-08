@@ -634,7 +634,7 @@ div[class^=tdk] {
     text-align: left;
     line-height: 1.8;
     font-size: 1.5rem;
-    background-color: #1071a8;
+    background-image: url("../img/background3.jpg");
     display: none;
 }
 .wzc {
@@ -645,7 +645,7 @@ div[class^=tdk] {
     text-align: left;
     line-height: 1.8;
     font-size: 1.5rem;
-    background-color: #1071a8;
+    background-image: url("../img/background3.jpg");
     display: block;
 }
 .wzc a {

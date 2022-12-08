@@ -3,6 +3,9 @@
     background-color: #1071a8;
 }
 
+/* .body {
+    background-image: url("../img/background3.jpg");
+} */
 .black_overlay {
     display: none;
     position: absolute;
@@ -78,13 +81,17 @@
     /* overflow: hidden; */
 
 }
+div[class^=no] {
+    background-image: url("../img/background3.jpg");
+}
+
 
 .no1_1 {
     overflow: hidden;
     border-style: solid;
     border-width: 2px;
     border-color: #1071a8;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin-bottom: 5px;
     cursor: pointer;
     transition: transform, 1s;
@@ -99,7 +106,7 @@
     border-style: solid;
     border-width: 2px;
     border-color: #1071a8;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin-bottom: 5px;
     cursor: pointer;
     transition: transform, 1s;
@@ -114,7 +121,7 @@
     border-style: solid;
     border-width: 2px;
     border-color: #1071a8;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin-bottom: 5px;
     cursor: pointer;
     transition: transform, 1s;
@@ -129,7 +136,7 @@
     border-style: solid;
     border-width: 2px;
     border-color: #1071a8;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin-bottom: 5px;
     cursor: pointer;
     transition: transform, 1s;
@@ -144,7 +151,7 @@
     border-style: solid;
     border-width: 2px;
     border-color: #1071a8;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin-bottom: 5px;
     cursor: pointer;
     transition: transform, 1s;
@@ -159,7 +166,7 @@ div[class^=no2] {
     border-style: solid;
     border-width: 2px;
     border-color: #1071a8;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin-bottom: 5px;
     cursor: pointer;
     transition: transform, 1s;
@@ -170,7 +177,7 @@ div[class^=no3] {
     border-style: solid;
     border-width: 2px;
     border-color: #1071a8;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin-bottom: 5px;
     cursor: pointer;
     transition: transform, 1s;
@@ -181,7 +188,7 @@ div[class^=no4] {
     border-style: solid;
     border-width: 2px;
     border-color: #1071a8;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin-bottom: 5px;
     cursor: pointer;
     transition: transform, 1s;
@@ -192,7 +199,7 @@ div[class^=no5] {
     border-style: solid;
     border-width: 2px;
     border-color: #1071a8;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     margin-bottom: 5px;
     cursor: pointer;
     transition: transform, 1s;
@@ -214,19 +221,19 @@ img[class^=xtp]:hover {
 }
 
 .no5_1 {
-    font-size: 0.8rem !important;
+    font-size: 0.6rem !important;
 }
 
 .no5_2 {
-    font-size: 1rem !important;
+    font-size: 0.6rem !important;
 }
 
 .no5_3 {
-    font-size: 1rem !important;
+    font-size: 0.6rem !important;
 }
 
 .no5_4 {
-    font-size: 1rem !important;
+    font-size: 0.6rem !important;
 }
 
 
@@ -358,7 +365,7 @@ span[class^=db] {
     left: 11.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(2) {
@@ -367,7 +374,7 @@ span[class^=db] {
     left: 18.3%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(3) {
@@ -376,7 +383,7 @@ span[class^=db] {
     left: 26%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(4) {
@@ -385,7 +392,7 @@ span[class^=db] {
     left: 26%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(5) {
@@ -394,7 +401,7 @@ span[class^=db] {
     left: 35%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(6) {
@@ -403,7 +410,7 @@ span[class^=db] {
     left: 35%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(7) {
@@ -412,7 +419,7 @@ span[class^=db] {
     left: 83%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(8) {
@@ -421,7 +428,7 @@ span[class^=db] {
     left: 45%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(9) {
@@ -430,7 +437,7 @@ span[class^=db] {
     left: 44%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(10) {
@@ -439,7 +446,7 @@ span[class^=db] {
     left: 63.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(11) {
@@ -448,7 +455,7 @@ span[class^=db] {
     left: 57%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(12) {
@@ -457,7 +464,7 @@ span[class^=db] {
     left: 52%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(13) {
@@ -466,7 +473,7 @@ span[class^=db] {
     left: 57%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(14) {
@@ -475,7 +482,7 @@ span[class^=db] {
     left: 72.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(15) {
@@ -484,7 +491,7 @@ span[class^=db] {
     left: 63%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(16) {
@@ -493,7 +500,7 @@ span[class^=db] {
     left: 51.3%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(17) {
@@ -502,7 +509,7 @@ span[class^=db] {
     left: 31%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(18) {
@@ -511,7 +518,7 @@ span[class^=db] {
     left: 3.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(19) {
@@ -520,7 +527,7 @@ span[class^=db] {
     left: 21.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(20) {
@@ -529,7 +536,7 @@ span[class^=db] {
     left: 31.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(21) {
@@ -538,7 +545,7 @@ span[class^=db] {
     left: 40.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(22) {
@@ -547,7 +554,7 @@ span[class^=db] {
     left: 38.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(23) {
@@ -556,7 +563,7 @@ span[class^=db] {
     left: 28.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(24) {
@@ -565,7 +572,7 @@ span[class^=db] {
     left: 45.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 .tupian span:nth-of-type(25) {
@@ -574,7 +581,7 @@ span[class^=db] {
     left: 43.5%;
     cursor: pointer;
     color: rgb(212, 106, 64);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 /* 导航标模块end */
@@ -626,7 +633,7 @@ div[class^=tdk] {
     transform: translate(0,-50%);
     text-align: left;
     line-height: 1.8;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     background-color: #1071a8;
     display: none;
 }
@@ -637,7 +644,7 @@ div[class^=tdk] {
     transform: translate(0,-50%);
     text-align: left;
     line-height: 1.8;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     background-color: #1071a8;
     display: block;
 }
@@ -648,4 +655,7 @@ div[class^=tdk] {
     position: absolute;
     left: 80%;
     top: 80%;
+}
+.tishiwenzi {
+    font-size: 1.2rem !important;
 }

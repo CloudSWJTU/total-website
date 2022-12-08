@@ -223,7 +223,7 @@ window.onresize = function () {
 }
 var docEl = document.documentElement;
 function setRemUnit() {
-    var rem = docEl.clientWidth / 190.2; 
+    var rem = docEl.clientWidth / 120.4; 
     docEl.style.fontSize = rem + 'px'
 }
 

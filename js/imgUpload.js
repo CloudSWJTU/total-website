@@ -41,7 +41,7 @@ imgUpload.prototype.upload = function (tag) {
     var self = this;
     var formData = new FormData();
     formData.append("file", tag[0].files[0]);
-
+// 本部分内容使用与本学期内容无关，便于下学期加入后端接口，且因为未接入后端接口，图片一定会上传失败
     $.ajax({
         url: "/uploadFile",
         type: "post",

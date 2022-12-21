@@ -659,3 +659,6 @@ div[class^=tdk] {
 .tishiwenzi {
     font-size: 1.2rem !important;
 }
+.main {
+    background-image: url("../img/background3.jpg");
+}

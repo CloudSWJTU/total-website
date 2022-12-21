@@ -165,28 +165,8 @@
 
   <!-- <p>鸣谢：照片人</p> -->
 
+<script type="text/javascript" src="./js/denglu.js"></script>
 
-
-<script>
-    //获取元素样式
-    const signInBtn = document.getElementById("signIn");
-    const signUpBtn = document.getElementById("signUp");
-    const fistForm = document.getElementById("form1");
-    const secondForm = document.getElementById("form2");
-    const container = document.querySelector(".container");
-   
-    //移除signInBtn事件句柄
-    signInBtn.addEventListener("click", () => {
-      container.classList.remove("right-panel-active");
-    });
-    //向signUpBtn添加事件句柄
-    signUpBtn.addEventListener("click", () => {
-      container.classList.add("right-panel-active");
-    }); 
-    secondForm.addEventListener("submit", (e) => e.preventDefault());
-    fistForm.addEventListener("submit", (e) => e.preventDefault());
-    
-  </script>
 </body>
  </html>
 

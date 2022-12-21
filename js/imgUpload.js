@@ -53,7 +53,7 @@ imgUpload.prototype.upload = function (tag) {
         success: function (data) {
             
             if (data.resultCode != '000000') {
-                alert("上传失败，请重试。");
+                alert("暂不支持该功能。");
                 return false;
             }
 
@@ -77,7 +77,7 @@ imgUpload.prototype.upload = function (tag) {
             }
         },
         error: function () {
-            alert("上传失败，请重试。");
+            alert("暂不支持该功能。");
         }
     });
 }
@@ -94,3 +94,10 @@ imgUpload.prototype.getList = function (){
 /*
 需要后台配合写一个图片以formdata对象格式存储到服务器并返回图片url的接口
 */
+
+      $(document).ready(function () {
+        var $imgUpload = new imgUpload({
+          id: "file1",
+          imgCount: 5
+        });
+      });

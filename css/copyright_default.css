@@ -1,0 +1,9 @@
+.copyright{
+    display: flex;
+    background-color: black;
+    font-size: 20px;
+    height: 50px;
+    color: aliceblue;
+    min-width: 200px;
+    justify-content: center;
+}

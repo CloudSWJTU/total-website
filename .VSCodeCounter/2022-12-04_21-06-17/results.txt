@@ -1,0 +1,92 @@
+Date : 2022-12-04 21:06:17
+Directory : d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26
+Total : 55 files,  23209 codes, 2482 comments, 3217 blanks, all 28908 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |         20 |     10,452 |        107 |        272 |     10,831 |
+| JavaScript |         16 |      9,445 |      2,189 |      2,744 |     14,378 |
+| HTML       |         15 |      2,887 |        186 |        117 |      3,190 |
+| XML        |          1 |        288 |          0 |          0 |        288 |
+| Markdown   |          3 |        137 |          0 |         84 |        221 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                 |         55 |     23,209 |      2,482 |      3,217 |     28,908 |
+| bootstrap                                                                                                         |          9 |     16,364 |      2,163 |      2,704 |     21,231 |
+| bootstrap\css                                                                                                     |          4 |      7,409 |         24 |          0 |      7,433 |
+| bootstrap\fonts                                                                                                   |          1 |        288 |          0 |          0 |        288 |
+| bootstrap\jQuery                                                                                                  |          1 |      6,902 |      1,922 |      2,086 |     10,910 |
+| bootstrap\js                                                                                                      |          3 |      1,765 |        217 |        618 |      2,600 |
+| css                                                                                                               |         16 |      3,043 |         83 |        272 |      3,398 |
+| doc                                                                                                               |          1 |         68 |          0 |         42 |        110 |
+| js                                                                                                                |         13 |        790 |         50 |         46 |        886 |
+| test                                                                                                              |          1 |          1 |          0 |          0 |          1 |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                          | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\404.html                                         | HTML       |         50 |          1 |         12 |         63 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\README.md                                        | Markdown   |         68 |          0 |         42 |        110 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\bootstrap\css\bootstrap-theme.css                | CSS        |        581 |          6 |          0 |        587 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\bootstrap\css\bootstrap-theme.min.css            | CSS        |          1 |          5 |          0 |          6 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\bootstrap\css\bootstrap.css                      | CSS        |      6,826 |          8 |          0 |      6,834 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\bootstrap\css\bootstrap.min.css                  | CSS        |          1 |          5 |          0 |          6 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\bootstrap\fonts\glyphicons-halflings-regular.svg | XML        |        288 |          0 |          0 |        288 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\bootstrap\jQuery\jquery-3.6.1.js                 | JavaScript |      6,902 |      1,922 |      2,086 |     10,910 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\bootstrap\js\bootstrap.js                        | JavaScript |      1,752 |        211 |        618 |      2,581 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\bootstrap\js\bootstrap.min.js                    | JavaScript |          1 |          5 |          0 |          6 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\bootstrap\js\npm.js                              | JavaScript |         12 |          1 |          0 |         13 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\base.css                                     | CSS        |         22 |          5 |          3 |         30 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\common.css                                   | CSS        |        769 |         28 |         26 |        823 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\css.css                                      | CSS        |        336 |          4 |         10 |        350 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\denglu.css                                   | CSS        |        222 |          4 |         38 |        264 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\displayphoto.css                             | CSS        |         52 |          0 |          7 |         59 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\fuwuquzhidaostyle.css                        | CSS        |        135 |          0 |          3 |        138 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\griddisplay.css                              | CSS        |        390 |          0 |         46 |        436 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\index.css                                    | CSS        |        534 |         20 |         98 |        652 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\navstyle.css                                 | CSS        |        177 |          0 |          2 |        179 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\pictrans.css                                 | CSS        |          0 |          0 |          1 |          1 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\sec.css                                      | CSS        |         25 |          1 |          2 |         28 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\shangchuan-dibiao.css                        | CSS        |         57 |          0 |          8 |         65 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\shangchuanhis.css                            | CSS        |         79 |         15 |         18 |        112 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\style.css                                    | CSS        |        118 |          6 |          2 |        126 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\stylefuwuqu.css                              | CSS        |         74 |          0 |          7 |         81 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\css\temphub.css                                  | CSS        |         53 |          0 |          1 |         54 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\doc\README副本.md                                  | Markdown   |         68 |          0 |         42 |        110 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\fuwuquzhidao.html                                | HTML       |        168 |          2 |         11 |        181 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\index.html                                       | HTML       |        497 |         10 |         11 |        518 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\index1.html                                      | HTML       |         41 |          0 |          3 |         44 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\index2.html                                      | HTML       |        127 |          6 |         12 |        145 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\jdhistory.html                                   | HTML       |        160 |          2 |         12 |        174 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\animate.js                                    | JavaScript |         12 |          0 |          1 |         13 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\click.js                                      | JavaScript |         14 |          0 |          0 |         14 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\club.js                                       | JavaScript |        127 |          0 |          7 |        134 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\denglu.js                                     | JavaScript |         13 |          2 |          2 |         17 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\displayphoto.js                               | JavaScript |         78 |          1 |          7 |         86 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\fengongstylechange.js                         | JavaScript |         36 |          0 |          0 |         36 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\fuwuqu_time.js                                | JavaScript |         12 |          1 |          0 |         13 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\imgUpload.js                                  | JavaScript |         82 |          7 |          7 |         96 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\mousecheck.js                                 | JavaScript |         23 |          6 |          1 |         30 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\myjavascript.js                               | JavaScript |        343 |         14 |          7 |        364 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\shangchuan.js                                 | JavaScript |         37 |         19 |          7 |         63 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\temp.html                                     | HTML       |         12 |          0 |          6 |         18 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\js\test.js                                       | JavaScript |          1 |          0 |          1 |          2 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\login.html                                       | HTML       |        164 |          7 |         23 |        194 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\nav.html                                         | HTML       |         84 |          0 |          2 |         86 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\navaside.html                                    | HTML       |         43 |          0 |          0 |         43 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\swjtudb.html                                     | HTML       |      1,199 |        134 |         11 |      1,344 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\test\README.md                                   | Markdown   |          1 |          0 |          0 |          1 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\tiyujiankang.html                                | HTML       |         93 |          6 |          4 |        103 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\wenhuayishu.html                                 | HTML       |         91 |          6 |          3 |        100 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\xiaoyuanfuwu.html                                | HTML       |         86 |          6 |          3 |         95 |
+| d:\total\exp\softwareability\project\cloudswjtu_total_2022.12.26\zhiyuangongyi.html                               | HTML       |         72 |          6 |          4 |         82 |
+| Total                                                                                                             |            |     23,209 |      2,482 |      3,217 |     28,908 |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

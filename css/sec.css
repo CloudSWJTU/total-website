@@ -7,7 +7,7 @@ body{
 .titlebk{
     background-image: url("../img/竢实扬华.jpg");
     /* opacity: 0.5; */
-    height: 100vh;
+    height: 60vw;
     background-repeat: no-repeat;
     background-size: 100vw;
     background-attachment: fixed;
@@ -15,11 +15,12 @@ body{
     transition: 0.5s ease 0s;
     animation: jiazai 1s;
     overflow: hidden;
+    text-align: center;
 }
 .titlebk .title{
-    
-    padding-top:20vh;
-    padding-left: 15vw;
+    text-align: center;
+    position: relative;
+    top: 20vw;
     font-size: 9vw;
     font-weight: bolder;
     color: rgba(108, 177, 234, 0.9);

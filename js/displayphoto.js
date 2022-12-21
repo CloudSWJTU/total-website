@@ -1,3 +1,4 @@
+//历史部分展示轮播图
 window.onload = function() {
     let sz = [...document.querySelectorAll('#banner>li')];
     let szdiv = [...document.querySelectorAll('#banner>div')];

@@ -1,3 +1,4 @@
+// 实现小组分工展示
 function changefengongstyle1(){
     var i=document.getElementById("fengongjieshao1").style.backgroundColor="#d3cce3";
 }

@@ -39,6 +39,7 @@
     width: 600px;
     height: 300px;
     border-radius: 10px;
+    z-index: 1;
 }
 
 #banner .img_Public {
@@ -55,5 +56,5 @@
 }
 
 #banner .right1 {
-    right: 8vw;
+    left: 74%;
 }

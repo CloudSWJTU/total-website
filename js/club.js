@@ -1,3 +1,4 @@
+//社团部分特效
 function clickEffect() {
 let balls = [];
 let longPressed = false;

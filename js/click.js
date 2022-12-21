@@ -1,3 +1,4 @@
+//主页功能区块开关
 function deleteminipart(){
    document.getElementById("minipart").style.display="none";
    document.getElementById("tackbackbutton").style.display="block";

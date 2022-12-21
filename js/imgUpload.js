@@ -1,3 +1,4 @@
+// 历史部分上传后端插件
 function imgUpload(opts) {
     var self = this;
     self.id = opts.id;

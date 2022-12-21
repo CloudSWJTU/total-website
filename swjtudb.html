@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/navstyle.css">
   <link rel="stylesheet" href="./css/shangchuan-dibiao.css">
+  <link rel="stylesheet" href="./css/background.css">
   <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
   <script src="./bootstrap/jQuery/jquery-3.6.1.js"></script>
   <script type="text/javascript" src="./js/imgUpload.js"></script>
@@ -28,7 +29,7 @@
   <title>swjtudb</title>
 </head>
 
-<body>
+<body >
   <div id="fade" class="black_overlay">
   </div>
   <!-- 顶层导航栏start -->
@@ -1342,7 +1343,9 @@
       <button type="button" class="btn btn-success">开启您的云游交大之旅！</button>
     </a>
   </div>
-
+  <!-- 预先加载插件 -->
+  <script src="./js/instantclick.min.js" data-no-instant></script>
+  <script data-no-instant>InstantClick.init();</script>
 </body>
 
 </html>

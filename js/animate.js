@@ -1,3 +1,4 @@
+//改变style文件js
 function animate(obj, target, callback) {
     clearInterval(obj.timer);
     obj.timer = setInterval(function() {

@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="./css/fuwuquzhidaostyle.css">
 	<link rel="stylesheet" href="./css/shangchuan-dibiao.css">
 	<script type="text/javascript" src="./js/imgUpload.js"></script>
+
 </head>
 
 <body>
@@ -65,7 +66,11 @@
 			</button>
 		</div>
 		</div>
+
 	</header>
+
+
+
 	<div class="fuwuqu_contentbox ">
 		<div class="fuwuqu_contentgridbox girdbox">
 			<div class="kuaidi gridbox">
@@ -128,6 +133,17 @@
 				</div>
 			</div>
 
+			<button id="btn">点一下有惊喜</button>
+			<script>
+				// 点击一个按钮，弹出对话框
+				//(1) 事件源 事件被触发的对象   谁  按钮
+				var btn = document.getElementById('btn');
+				//(2) 事件类型  如何触发 什么事件 比如鼠标点击(onclick) 还是鼠标经过 还是键盘按下
+				//(3) 事件处理程序  通过一个函数赋值的方式 完成
+				btn.onclick = function() {
+					alert('^_^玩的开心！！！');
+				}
+			</script>
 
 			<div class="meishi gridbox">
 				<h2 align="center">美食<br>
@@ -160,8 +176,44 @@
 						
 					</div>
 				</div>
+
+				
+
+
 				<div class="meishiinnerbox">
-					<h3>一起分享</h3>
+					<h3>一起分享并且留言吧^_^</h3>
+
+					<textarea name="" id=""></textarea>
+					<button>发布</button>
+					<ul>
+				
+					</ul>
+					<script>
+						// 1. 获取元素
+						var btn = document.querySelector('button');
+						var text = document.querySelector('textarea');
+						var ul = document.querySelector('ul');
+						// 2. 注册事件
+						btn.onclick = function() {
+							if (text.value == '') {
+								alert('您没有输入内容');
+								return false;
+							} else {
+								// console.log(text.value);
+								// (1) 创建元素
+								var li = document.createElement('li');
+								// 先有li 才能赋值
+								//留言显示相应内容
+								li.innerHTML = text.value;
+								// (2) 添加元素
+								// ul.appendChild(li);
+								//最新的留言置顶
+								ul.insertBefore(li, ul.children[0]);
+				
+							}
+						}
+					</script>
+
 					<div class="fenxiangbox">
 						<div class="dbshangchuancenter ">
 							<div class="schz">
@@ -180,8 +232,10 @@
 							<img src="./img/yinxing.JPG" alt="">
 						</div>
 					</div>
-					
+				
+
 				</div>
+
 			</div>
 			<div>
 				<br>
@@ -189,9 +243,12 @@
 				<br>
 				<br>
 				<br>
-				
-				
+				<br>
+				<br>
+				<br>
 			</div>
+
+
 			<div class="xiaoyuanfuwu">
 					<img src="./img/fuwuanpai.jpg" alt="anpai">
 					<img src="./img/IMG_hj.PNG" alt="phone">
@@ -201,6 +258,12 @@
 			</div>
 		</div>
 	</div>
+
 </body>
+
+
+
+
+
 
 </html>
